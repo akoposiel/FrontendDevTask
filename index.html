@@ -1,0 +1,651 @@
+<!DOCTYPE HTML>
+<html lang="en-US"ng-app="AngularChartExample">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<script src="assets/js/highcharts.js"></script>
+	
+	<title></title>
+</head>
+<body>
+	<div class="promo">
+		<a href="#">Buffer ♥ Baremetrics. Get these metrics for <i>your</i> company in a single click! <span>Get Started for Free ›</span></a>
+		<ul>
+			<li><a href="https://baremetrics.com/">Learn More</a></li>
+			<li><a href="https://baremetrics.com/blog">Blog</a></li>
+			<li class="follow">
+				<iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" title="Twitter Follow Button" src="twitter.html" style="position: static; visibility: visible; width: 138px; height: 20px;" data-screen-name="Baremetrics">
+				</iframe>
+			</li>
+		</ul>
+	</div>
+	<header class="main-header" role="banner">
+		<h1>
+			<a class="logo" href="">Baremetrics</a>
+			<span>for<strong>Buffer</strong>
+				<em>(Yes, these are Buffer’s <a href="">actual metrics</a>)</em>
+			</span>
+		</h1>
+		<nav>
+			<ul>
+				<li class="menu__dashboardactive ">
+					<a href="#">Dashboards</a>
+					<ul>
+						<li class="active">
+							<a href="#">Monthly Recurring Revenue</a>
+						</li>
+						<li class="">
+							<a href="#">Net Revenue</a>
+						</li>
+						<li class="">
+							<a href="#">Fees</a>
+						</li>
+						<li class="">
+							<a href="#">Other Revenue</a>
+						</li>
+						<li class="">
+							<a href="#">Average Revenue Per User</a>
+						</li>
+						<li class="">
+							<a href="#">Annual Run Rate</a>
+						</li>
+						<li class="">
+							<a href="#">Lifetime Value</a>
+						</li>
+						<li class="">
+							<a href="#">User Churn</a>
+						</li>
+						<li class="">
+							<a href="#">Revenue Churn</a>
+						</li>
+						<li class="">
+							<a href="#">Active Customers</a>
+						</li>
+						<li class="">
+							<a href="#">New Customers</a>
+						</li>
+						<li class="">
+							<a href="#">Reactivated Customers</a>
+						</li>
+						<li class="">
+							<a href="#">New Subscriptions</a>
+						</li>
+						<li class="">
+							<a href="#">Active Subscriptions</a>
+						</li>
+						<li class="">
+							<a href="#">Plan Quantities</a>
+						</li>
+						<li class="">
+							<a href="#">Upgrades</a>
+						</li>
+						<li class="">
+							<a href="#">Downgrades</a>
+						</li>
+						<li class="">
+							<a href="#">Cancellations</a>
+						</li>
+						<li class="">
+							<a href="#">Coupons Redeemed</a>
+						</li>
+						<li class="">
+							<a href="#">Failed Charges</a>
+						</li>
+						<li class="">
+							<a href="#">Refunds</a>
+						</li>
+					</ul>
+				</li>
+				<li class="menu__forecast ">
+					<a href="https://buffer.baremetrics.com/forecast">Forecast</a>
+				</li>
+				<li class="menu__customers ">
+					<a href="https://buffer.baremetrics.com/customers">Customers</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container" style="">
+		<section class="settings">
+			<h2>Monthly Recurring Revenue
+				<div class="education-block" data-key="mrr">
+					<span class="icon-edu trigger dark">Learn</span>
+
+					<div class="education-tooltip animated" style="display: none;">
+						<div class="triangle-with-shadow"></div>
+
+						<div class="text">
+						  <h1>Monthly Recurring Revenue</h1>
+						  <p class="main-paragraph"><strong>Monthly recurring revenue</strong> is the lifeblood of any SaaS business. It is calculated by adding up the value of all of your active subscription customers, minus any discounts. Increases in MRR come from three places: new customers, returning customers, and upgrading customers. Conversely, you can lose MRR to cancellations and downgrades.</p>
+						  <a class="joey-button learn-more" target="_blank" href="https://help.baremetrics.com/know-your-metrics/monthly-recurring-revenue">Learn More</a>
+						</div>
+
+						<div class="video">
+						  <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+							<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+							  <div style="height:100%;width:100%" class="wistia_embed wistia_async_8znkqtac2r videoFoam=true playButton=false fullscreenButton=true playbar=false smallPlayButton=true volumeControl=false shareControl=false settingsControl=false endVideoBehavior=reset wistia_embed_initialized" id="wistia-8znkqtac2r-1"><div id="wistia_chrome_14" class="w-chrome" style="display: inline-block; height: 100%; margin: 0px; padding: 0px; position: relative; vertical-align: top; width: 100%; zoom: 1; outline: none; overflow: hidden; box-sizing: content-box;"></div></div>
+							</div>
+						  </div>
+
+						  
+						</div>
+					</div>
+				</div>
+			</h2>
+			<div class="actions stick">
+				<p class="last-update">Metrics refreshed
+				  <time datetime="2017-08-07T00:16:47+00:00" class="last-update-time-ago" title="about 2 hours ago">2 hours ago</time>
+				  <i class="icon-info question tooltipstered"></i>
+				</p>
+
+				<div class="daterange daterange--double main-range" data-earliest="1327536000000" data-latest="1502064000000" data-start="1499472000000" data-end="1502064000000">
+				<div class="dr-input">
+					<div class="dr-dates">
+						<div class="dr-date dr-date-start" contenteditable="">July 8, 2017</div>
+						<span class="dr-dates-dash">–</span>
+						<div class="dr-date dr-date-end" contenteditable="">August 7, 2017</div>
+					</div>
+					<div class="dr-presets">
+						<span class="dr-preset-bar"></span>
+						<span class="dr-preset-bar"></span>
+						<span class="dr-preset-bar"></span>
+					</div>
+				</div>
+				<div class="dr-selections">
+				<div class="dr-calendar" style="display: none;">
+					<div class="dr-range-switcher">
+						<div class="dr-switcher dr-month-switcher">
+							<i class="dr-left"></i>
+							<span>April</span>
+							<i class="dr-right"></i>
+						</div>
+						<div class="dr-switcher dr-year-switcher">
+							<i class="dr-left"></i><span>2015</span><i class="dr-right"></i>
+						</div>
+					</div>
+					<ul class="dr-days-of-week-list">
+						<li class="dr-day-of-week">Su</li>
+						<li class="dr-day-of-week">Mo</li>
+						<li class="dr-day-of-week">Tu</li>
+						<li class="dr-day-of-week">We</li>
+						<li class="dr-day-of-week">Th</li>
+						<li class="dr-day-of-week">Fr</li>
+						<li class="dr-day-of-week">Sa</li>
+					</ul>
+					<ul class="dr-day-list"></ul>
+				</div>
+				<ul class="dr-preset-list" style="display: none;">
+					<li class="dr-list-item">Last 30 days
+						<span class="dr-item-aside" data-start="2017-07-09T00:00:00.000Z" data-end="2017-08-07T00:00:00.000Z">Jul 9, 2017 – Aug 7, 2017</span>
+					</li>
+					<li class="dr-list-item">This month
+						<span class="dr-item-aside" data-start="2017-08-01T00:00:00.000Z" data-end="2017-08-07T00:00:00.000Z">Aug 1, 2017 – Aug 7, 2017</span>
+					</li>
+					<li class="dr-list-item">Last month
+						<span class="dr-item-aside" data-start="2017-07-01T00:00:00.000Z" data-end="2017-07-31T23:59:59.999Z">Jul 1, 2017 – Jul 31, 2017</span>
+					</li>
+					<li class="dr-list-item">Last 3 months
+						<span class="dr-item-aside" data-start="2017-05-01T00:00:00.000Z" data-end="2017-07-31T23:59:59.999Z">May 1, 2017 – Jul 31, 2017</span>
+					</li>
+					<li class="dr-list-item">Last 6 months
+						<span class="dr-item-aside" data-start="2017-02-01T00:00:00.000Z" data-end="2017-07-31T23:59:59.999Z">Feb 1, 2017 – Jul 31, 2017</span>
+					</li>
+					<li class="dr-list-item">Last year
+						<span class="dr-item-aside" data-start="2016-01-01T00:00:00.000Z" data-end="2016-12-31T23:59:59.999Z">Jan 1, 2016 – Dec 31, 2016</span>
+					</li>
+					<li class="dr-list-item">All time
+						<span class="dr-item-aside" data-start="2012-01-26T00:00:00.000Z" data-end="2017-08-07T00:00:00.000Z">Jan 26, 2012 – Aug 7, 2017</span>
+					</li>
+				</ul>
+				</div>
+				</div>
+			</div>
+		</section>
+		<section class="main-graph" data-path="/api/stats/mrr.json">
+			<div class="graph-toolbar">
+				<a class="toggle-notes toggle-switch" href="javascript:void(0)">Compare Plans</a>
+
+				<div class="select2-container dropdown--dates toggle-switch" id="s2id_autogen3">
+					<a href="javascript:void(0)" class="select2-choice" tabindex="-1">   
+						<span class="select2-chosen" id="select2-chosen-4">&nbsp;</span>
+						<abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span>
+					</a>
+					<label for="s2id_autogen4" class="select2-offscreen"></label>
+					<input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-4" id="s2id_autogen4">
+					<div class="select2-drop select2-display-none dates--dropdown select2-with-searchbox">   
+						<div class="select2-search">       
+							<label for="s2id_autogen4_search" class="select2-offscreen"></label>       
+							<input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-4" id="s2id_autogen4_search" placeholder="">   
+						</div>   
+						<ul class="select2-results" role="listbox" id="select2-results-4">   </ul>
+					</div>
+				</div>
+				<input type="hidden" class="dropdown--dates toggle-switch" tabindex="-1" title="" style="display: none;">
+
+
+				<div class="select2-container dropdown--trendline toggle-switch" id="s2id_autogen5" data-zero="0">
+					<a href="javascript:void(0)" class="select2-choice" tabindex="-1">   
+						<span class="select2-chosen" id="select2-chosen-6">Reset</span>
+						<abbr class="select2-search-choice-close"></abbr>   
+						<span class="select2-arrow" role="presentation">
+							<b role="presentation"></b>
+						</span>
+					</a>
+					<label for="s2id_autogen6" class="select2-offscreen"></label>
+					<input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-6" id="s2id_autogen6">
+					<div class="select2-drop select2-display-none select2-with-searchbox trendline--dropdown">   
+						<div class="select2-search">       
+							<label for="s2id_autogen6_search" class="select2-offscreen"></label>       
+							<input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-6" id="s2id_autogen6_search" placeholder="">   
+						</div>   
+						<ul class="select2-results" role="listbox" id="select2-results-6">   </ul>
+					</div>
+				</div>
+				<input type="hidden" class="dropdown--trendline toggle-switch" tabindex="-1" title="" value="none" style="display: none;">
+				<a class="toggle-notes toggle-switch" href="javascript:void(0)">Annotations</a>
+
+				<a class="reset" href="javascript:void(0)" style="display: none;">Reset</a>
+
+			  <div class="downloads">
+			  </div>
+			</div>
+			<h1 class="metric__current">$1,231,044</h1>
+			<div class="graph-actions">
+				<div class="select2-container dropdown--interval" id="s2id_autogen1">
+					<a href="javascript:void(0)" class="select2-choice" tabindex="-1">   
+						<span class="select2-chosen" id="select2-chosen-2">Days</span>
+					</a>
+				</div>
+			</div>
+			<!--Line Area Graph -->
+				<div id="linegraph" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+				<script type="text/javascript" src="assets/js/datas.js"></script>
+				
+			<!-- end Graph	 -->
+			
+			<div class="breakout">
+				<div class="column titles scrolling">
+					<div class="cell head">
+					  Breakout
+					</div>
+
+					<div class="cell new body">
+					  New
+					</div>
+					<div class="cell expansion body">
+					  Expansion
+					</div>
+					<div class="cell reactivation body">
+					  Reactivation
+					</div>
+					<div class="cell contraction body">
+					  Contraction
+					</div>
+					<div class="cell churn body">
+					  Churn
+					</div>
+
+					<div class="cell net foot">
+					  Change
+					</div>
+				</div>
+
+				<div class="breakout-scroller">
+					<div class="breakout-table" style="width: 4030px;">
+						<div class="column" data-index="21" style="left: 2730px;">
+							<div class="cell head">
+							  Jul 29
+							</div>
+							<div class="new body cell amount green">
+							  $761
+							</div><div class="churn body cell amount red">
+							  -$1,901
+							</div><div class="contraction body cell amount red">
+							  -$223
+							</div><div class="expansion body cell amount green">
+							  $178
+							</div><div class="reactivation body cell amount green">
+							  $147
+							</div><div class="net foot cell amount red">
+							  -$1,038
+							</div>
+						</div>
+						<div class="column" data-index="22" style="left: 2730px;">
+							<div class="cell head">
+							  Jul 30
+							</div>
+							<div class="new body cell amount green">
+							  $1,296
+							</div><div class="churn body cell amount red">
+							  -$1,787
+							</div><div class="contraction body cell amount red">
+							  -$159
+							</div><div class="expansion body cell amount green">
+							  $214
+							</div><div class="reactivation body cell amount green">
+							  $467
+							</div><div class="net foot cell amount green">
+							  $30
+							</div>
+						</div>
+						<div class="column" data-index="23" style="left: 2730px;">
+							<div class="cell head">
+							  Jul 31
+							</div>
+							<div class="new body cell amount green">
+							  $1,954
+							</div><div class="churn body cell amount red">
+							  -$1,305
+							</div><div class="contraction body cell amount red">
+							  -$566
+							</div><div class="expansion body cell amount green">
+							  $569
+							</div><div class="reactivation body cell amount green">
+							  $875
+							</div><div class="net foot cell amount green">
+							  $1,527
+							</div>
+						</div>
+						<div class="column" data-index="24" style="left: 2730px;">
+							<div class="cell head">
+							  Aug 1
+							</div>
+							<div class="new body cell amount green">
+							  $2,921
+							</div><div class="churn body cell amount red">
+							  -$2,710
+							</div><div class="contraction body cell amount red">
+							  -$705
+							</div><div class="expansion body cell amount green">
+							  $640
+							</div><div class="reactivation body cell amount green">
+							  $1,202
+							</div><div class="net foot cell amount green">
+							  $1,347
+							</div>
+						</div>
+						<div class="column" data-index="25" style="left: 2730px;">
+							<div class="cell head">
+							  Aug 2
+							</div>
+							<div class="new body cell amount green">
+							  $2,815
+							</div><div class="churn body cell amount red">
+							  -$1,501
+							</div><div class="contraction body cell amount red">
+							  -$191
+							</div><div class="expansion body cell amount green">
+							  $1,223
+							</div><div class="reactivation body cell amount green">
+							  $322
+							</div><div class="net foot cell amount green">
+							  $2,668
+							</div>
+						</div>
+						<div class="column" data-index="26" style="left: 2730px;">
+							<div class="cell head">
+							  Aug 3
+							</div>
+							<div class="new body cell amount green">
+							  $2,857
+							</div><div class="churn body cell amount red">
+							  -$2,339
+							</div><div class="contraction body cell amount red">
+							  -$380
+							</div><div class="expansion body cell amount green">
+							  $898
+							</div><div class="reactivation body cell amount green">
+							  $418
+							</div><div class="net foot cell amount green">
+							  $1,453
+							</div>
+						</div>
+						<div class="column" data-index="27" style="left: 2730px;">
+							<div class="cell head">
+							  Aug 4
+							</div>
+							<div class="new body cell amount green">
+							  $1,406
+							</div><div class="churn body cell amount red">
+							  -$2,148
+							</div><div class="contraction body cell amount red">
+							  -$352
+							</div><div class="expansion body cell amount green">
+							  $428
+							</div><div class="reactivation body cell amount green">
+							  $679
+							</div><div class="net foot cell amount green">
+							  $12
+							</div>
+						</div>
+						<div class="column" data-index="28" style="left: 2730px;">
+							<div class="cell head">
+							  Aug 5
+							</div>
+							<div class="new body cell amount green">
+							  $873
+							</div><div class="churn body cell amount red">
+							  -$1,867
+							</div><div class="contraction body cell amount red">
+							  -$202
+							</div><div class="expansion body cell amount green">
+							  $165
+							</div><div class="reactivation body cell amount green">
+							  $219
+							</div><div class="net foot cell amount red">
+							  -$812
+							</div>
+						</div>
+						<div class="column" data-index="29" style="left: 2730px;">
+							<div class="cell head">
+							  Aug 6
+							</div>
+							<div class="new body cell amount green">
+							  $768
+							</div><div class="churn body cell amount red">
+							  -$1,934
+							</div><div class="contraction body cell amount red">
+							  -$382
+							</div><div class="expansion body cell amount green">
+							  $269
+							</div><div class="reactivation body cell amount green">
+							  $207
+							</div><div class="net foot cell amount red">
+							  -$1,072
+							</div>
+						</div>
+						<div class="column" data-index="30" style="left: 2730px;">
+							<div class="cell head">
+							  Aug 7
+							</div>
+							<div class="new body cell amount green">
+							  $20
+							</div><div class="churn body cell amount gray">
+							  $0
+							</div><div class="contraction body cell amount gray">
+							  $0
+							</div><div class="expansion body cell amount gray">
+							  $0
+							</div><div class="reactivation body cell amount gray">
+							  $0
+							</div><div class="net foot cell amount green">
+							  $20
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="right-gradient"></div>
+			</div>
+		</section>
+		<section class="main-graph__trend">
+			<div class="trend__group">
+			<!-- <h5>Current</h5> -->
+				<h5>current</h5><h2 class="current">
+				  <span class="trend__value">$1,231,044</span>
+				</h2>
+			</div>
+			<div class="trend__group">
+				<!-- <h5>1 Month Ago</h5> -->
+				<h5>1 month ago</h5><h2 class="1_month_ago">
+				  <span class="trend__value">$1,211,702</span>
+					<span class="trend__percent up green">1.6%</span>
+				</h2>
+			</div>
+			<div class="trend__group">
+				<!-- <h5>3 Months Ago</h5> -->
+				<h5>3 months ago</h5><h2 class="3_months_ago">
+				  <span class="trend__value">$1,164,152</span>
+					<span class="trend__percent up green">5.7%</span>
+				</h2>
+			</div>
+			<div class="trend__group">
+				<!-- <h5>6 Months Ago</h5> -->
+				<h5>6 months ago</h5><h2 class="6_months_ago">
+				  <span class="trend__value">$1,086,037</span>
+					<span class="trend__percent up green">13.4%</span>
+				</h2>
+			</div>
+			<div class="trend__group">
+				<!-- <h5>12 Months Ago</h5> -->
+				<h5>12 months ago</h5><h2 class="12_months_ago">
+				  <span class="trend__value">$906,427</span>
+					<span class="trend__percent up green">35.8%</span>
+				</h2>
+			</div>
+		</section>
+		
+		<section class="mrr-graph">
+			<div class="select2-container dropdown--mrr" id="s2id_autogen7">
+				<a href="javascript:void(0)" class="select2-choice" tabindex="-1">
+					<span class="select2-chosen" id="select2-chosen-8">12 Months</span>	
+				</a>
+			</div>
+			<h1>Monthly Recurring Revenue Growth</h1>
+			<div class="graph" style="opacity: 1;">
+				<div class="chart-controller">
+				<!-- Stacked BarGraph -->
+					<div id="stackedBar" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+					<script src="assets/js/datas.js"> </script>
+				<!-- End Stack BarGraph -->
+				</div>
+				<br />
+				
+			</div>
+		</section>
+		<section class="donut-chart">
+			  <div class="table-master-header">
+				<h3 class="table-head-title">Plans Breakout</h3>
+			  </div>
+				<!-- Donut chart -->
+				<div class="canvas-holder" style="width:68%"  >
+					<canvas id="chart-area" />
+				
+				</div>
+				
+				
+				<!-- End Donut Chart -->
+			<!--   <div class="graph new-loading">
+			  
+				<div class="plans-list">
+				  <h1 class="metric__current"></h1>
+				  <input type="hidden" class="dropdown--donut stack-0">
+				  <input type="hidden" class="dropdown--donut stack-1">
+				  <input type="hidden" class="dropdown--donut stack-2">
+				  <input type="hidden" class="dropdown--donut stack-3">
+				  <span style="display: none;">Other Plans</span>
+				</div>
+			  </div> -->
+		</section>
+		<section class="table-wrapper">
+			<div class="table-master-header">
+			  <h3 class="table-head-title">Plans</h3>
+			</div>
+			<table class="table-new sortable table-shrink tablesorter tablesorter-default" role="grid">
+				<thead>
+					<tr role="row" class="tablesorter-headerRow">
+						<th class="sorter-star ss-star star tablesorter-header tablesorter-headerUnSorted" style="width: 50px; user-select: none;" data-column="0" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" aria-sort="none" aria-label=": No sort applied, activate to apply an ascending sort"><div class="tablesorter-header-inner"><i></i></div></th>
+						<th style="width: 400px; user-select: none;" data-column="1" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" aria-sort="none" aria-label="Plan: No sort applied, activate to apply an ascending sort"><div class="tablesorter-header-inner">Plan <i></i></div></th>
+						<th data-column="2" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" aria-sort="none" aria-label="Customers: No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">Customers <i></i></div></th>
+						<th data-column="3" class="tablesorter-header tablesorter-headerUnSorted" tabindex="0" scope="col" role="columnheader" aria-disabled="false" unselectable="on" aria-sort="none" aria-label="MRR: No sort applied, activate to apply an ascending sort" style="user-select: none;"><div class="tablesorter-header-inner">MRR <i></i></div></th>
+					</tr>
+				</thead>
+				<tbody aria-live="polite" aria-relevant="all">
+					<tr role="row">
+						<td>
+							<label class="star">
+								<input type="checkbox" data-toggle-url="/settings/plans/859859e39a01d74968df950d553bc96e6466e55093286afe102f846d/star">
+								<i class="new-button small"></i>
+							</label>
+						</td>
+						<td class="black"><span>Pro</span> <span class="tag">$10/mo</span></td>
+						<td class="green">35147</td>
+						<td class="green">$350,858</td>
+					</tr>
+					<tr role="row">
+						<td>
+							<label class="star">
+								<input type="checkbox" data-toggle-url="/settings/plans/805e1b423683e6377c712f88a4db9c2f7a0cd17e3ab8b3013f085725/star">
+								<i class="new-button small"></i>
+							</label>
+						</td>
+						<td class="black"><span>Small Business v2 - Monthly</span> <span class="tag">$99/mo</span></td>
+						<td class="green">2758</td>
+						<td class="green">$265,221</td>
+					</tr>
+					<tr role="row">
+						<td>
+							<label class="star">
+								<input type="checkbox" data-toggle-url="/settings/plans/859f57f31f060b5f38af710983ffe8010eca8069d6b7dcdcedf55b55/star">
+								<i class="new-button small"></i>
+							</label>
+						</td>
+						<td class="black"><span>Pro</span> <span class="tag">$102/yr</span></td>
+						<td class="green">27902</td>
+					<td class="green">$234,168.71</td>
+					</tr>
+					<tr role="row">
+						<td>
+							<label class="star">
+								<input type="checkbox" data-toggle-url="/settings/plans/0754305f6b2ac1fa170de44af14494eff06a96b3b2d5246f7d97cd60/star">
+								<i class="new-button small"></i>
+							</label>
+						</td>
+						<td class="black"><span>Small Business v2 - Yearly</span> <span class="tag">$1,010/yr</span></td>
+						<td class="green">1120</td>
+						<td class="green">$85,894.49</td>
+					</tr>
+					<tr role="row">
+						<td>
+							<label class="star">
+								<input type="checkbox" data-toggle-url="/settings/plans/dcab543e1cfe12996c3aa6dff85ff7c193136eaac8b1c0e608781b5b/star">
+								<i class="new-button small"></i>
+							</label>
+						</td>
+						<td class="black"><span>Small Business v1 - Monthly</span> <span class="tag">$50/mo</span></td>
+						<td class="green">1590</td>
+						<td class="green">$77,075</td>
+					</tr>
+					<tr role="row">
+						<td>
+							<label class="star">
+								<input type="checkbox" data-toggle-url="/settings/plans/21f5ac8de743cd1e55f9064bb7911a599783f9385475ec2947ba10e8/star">
+								<i class="new-button small"></i>
+							</label>
+						</td>
+						<td class="black"><span>Medium Business v2 - Monthly</span> <span class="tag">$199/mo</span></td>
+						<td class="green">258</td>
+						<td class="green">$49,352</td>
+					</tr>
+					<tr class="view-all-plans" role="row"><td colspan="10">Show All</td></tr>
+					
+				</tbody>
+			</table>
+		</section>
+		
+	</div>
+	
+</body>
+</html>
